@@ -1,0 +1,23 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 364 411" width="364" height="411">
+	<title>css-svg</title>
+	<style>
+		.s0 { fill: #264de4 } 
+		.s1 { fill: #2965f1 } 
+		.s2 { fill: #ebebeb } 
+		.s3 { fill: #000000 } 
+		.s4 { fill: #ffffff } 
+	</style>
+	<g id="layer1">
+		<g id="g3013">
+			<path id="polygon2989" class="s0" d="m363.7-0.4l-33 370.2-148.6 41.2-148.1-41.1-33-370.3z"/>
+			<path id="polygon2991" class="s1" d="m302.4 346.2l28.2-316.3h-148.2v349.6z"/>
+			<path id="polygon2993" class="s2" d="m76.7 167.2l4 45.4h101.7v-45.4z"/>
+			<path id="polygon2995" class="s2" d="m182.4 75.3h-0.2-113.7l4.1 45.4h109.8z"/>
+			<path id="polygon2997" class="s2" d="m182.4 332.4v-47.2h-0.2l-50.6-13.6-3.2-36.3h-24.6-21l6.3 71.3 93.1 25.9z"/>
+			<path id="path2999" class="s3" d="m86.4-101h55v23h-32v23h32v23h-55z"/>
+			<path id="path3001" class="s3" d="m152.4-101h55v20h-32v4h32v46h-55v-21h32v-4h-32z"/>
+			<path id="path3003" class="s3" d="m218.4-101h55v20h-32v4h32v46h-55v-21h32v-4h-32z"/>
+			<path id="polygon3005" class="s4" d="m238.1 212.6l-5.2 58.9-50.7 13.7v47.2l93.1-25.8 0.7-7.6 10.7-119.6 1.1-12.2 8.2-91.9h-113.8v45.4h64l-4.1 46.5h-59.9v45.4z"/>
+		</g>
+	</g>
+</svg>

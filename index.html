@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Michael Sirna - Portfolio</title>
+    <meta name="author" content="Michael Sirna">
+    <meta name="description" content="Michael Sirna's Portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicons -->
+    <link href="static/favicons/favicon.ico" rel="icon">
+    <link href="static/favicons/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- CSS Files -->
+    <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="static/css/aos.css" rel="stylesheet">
+    <link href="static/css/hamburgers.css" rel="stylesheet">
+    <link href="static/css/wordart.css" rel="stylesheet">
+    <link href="static/css/before-effect-slider.css" rel="stylesheet">
+    <link href="static/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header -->
+    <nav class="navbar fixed-top navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="static/img/logo.png" class="me-2" height="40" alt="Logo" />
+                Michael Sirna
+            </a>
+            <button class="navbar-toggler hamburger hamburger--squeeze" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto w-100 justify-content-end">
+                    <li class="nav-item"><a class="nav-link nav-underline scrollto" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link nav-underline scrollto " href="#resume">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link nav-underline scrollto " href="#projects">Projects</a></li>
+                    <li class="nav-item">
+                        <div class="dark-light nav-link">
+                            <i class='bi bi-sun sun'></i>
+                            <i class='bi bi-moon moon'></i>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Home -->
+    <section id="home" class="d-flex flex-column justify-content-center align-items-center parallax-window home" data-parallax="scroll">
+        <div class="home-content" data-aos="fade-up" data-aos-duration="1000">
+            <h1 id="hello"></h1>
+            <p id="im"></p>
+            <p id="welcome"></p>
+        </div>
+        <a href="#about" class="down-arrow scrollto"><i class="bi bi-chevron-double-down"></i></a>
+    </section>
+
+
+    <!-- Main -->
+    <main id="main">
+
+
+        <!-- About -->
+        <section id="about" class="about sect-pt4" style="padding-bottom:4rem; background-color: #018749;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="section-title-container text-center">
+                            <div class="wordart superhero"><span class="text">About</span></div>
+                            <!--<h3 class="section-title">About</h3>-->
+                            <div class="section-underline" style="background-color: #FFF;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="box-shadow-full">
+                            <div class="row">
+                                <div class="col-lg-4 pfp-container" data-aos="fade-right" data-aos-duration="1000">
+                                    <img src="static/img/logo.png" class="img-fluid" id="about-pfp" style="background-color:#000" alt="Dumb logo I made." />
+                                    <div class="pfp-label">This used to be a photo of me, but I kept cringing everytime I saw it, so now it's a logo.</div>
+                                    <!--<img src="static/img/pfp.png" class="img-fluid" id="about-pfp" alt="Some stupid photo of me." />-->
+                                    <!--<div class="pfp-label">I took 30 photos before finally settling on this. This one sucks too.</div>-->
+                                </div>
+                                <div class="col-lg-8 pt-4 pt-lg-0 about-content" data-aos="fade-left" data-aos-duration="1000">
+                                    <h2><u style="text-decoration-thickness: 0.1em;">How's it hanging?</u></h2>
+                                    <br />
+                                    <p>My name is Michael. I'm a 4th-year Computer Science transfer student at the University of Guelph. Here, you can find information about me, <a class="scrollto" href="#resume">my resume</a>, and <a class="scrollto" href="#projects">my past and present projects</a>.</p>
+                                    <p>The website that you're looking at is all built using HTML, Bootstrap, JavaScript, and jQuery, and is hosted using GitHub Pages. The styling's still a bit weird, but that'll hopefully improve as I gain more experience in web-development.</p>
+                                    <p>If you'd like to get in contact with me, you can reach me at: <a href="mailto:msirna@uoguelph.ca">msirna@uoguelph.ca</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Resume -->
+        <section id="resume" class="resume sect-pt4">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div style="display:flex; position:relative;" class="section-title-container text-center">
+                            <div class="wordart blues" style="flex: 1 0 auto;"><span class="text">Resume</span></div>
+                            <!--<h3 style="flex: 1 0 auto;" class="section-title">Resume</h3>-->
+                            <div class="pdf-download-button">
+                                <a type="button" href="static/files/resume.pdf" target="__blank" class="btn btn-lg btn-danger"><i class="bi bi-download"></i><span class="button-text"> Download PDF Version</span></a>
+                            </div>
+                            <div style=" position: absolute; bottom:0;" class="section-underline"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000">
+
+                        <!-- Summary -->
+                        <h3 class="resume-title">Summary</h3>
+                        <div class="resume-item">
+                            <h4>Michael Sirna</h4>
+                            <p><em>647-394-8993<br />msirna@uoguelph.ca</em></p>
+                            <ul>
+                                <li><em>Strong involvement as both a leader - teaching over 70 students in engaging and creative ways - and a team player - effectively participating and making valued contributions to given tasks.</em></li>
+                                <li><em>Exceptional knowledge of website, software, and game development languages such as HTML, CSS, PHP, SQL, JavaScript, Python, Java, C, and C#.</em></li>
+                                <li><em>Experienced in data entry, data management, record-keeping, and maintenance.</em></li>
+                                <li><em>Media development experience with Adobe and Microsoft Office Programs such as Adobe Animate, Adobe Photoshop, Adobe Premiere Pro, Microsoft Word, Microsoft Publisher, and Microsoft Excel.</em></li>
+                                <li><em>Resourceful and efficient at to learning new languages and fixing bugs in code.</em></li>
+                                <li><em>Exceptional verbal and written communication skills.</em></li>
+                            </ul>
+                        </div>
+
+                        <!-- Education -->
+                        <h3 class="resume-title">Education</h3>
+                        <div class="resume-item">
+                            <div class="item-container">
+                                <h4>University of Guelph</h4>
+                                <h5>Sept. 2022 - Present</h5>
+                            </div>
+                            <p style="padding: 0px; margin:0px;"><em>Bachelor of Computing (B.Comp.)</em></p>
+                            <ul>
+                                <li style="padding:0px">Expected Graduation: Winter 2024</li>
+                            </ul>
+                        </div>
+                        <div class="resume-item">
+                            <div class="item-container">
+                                <h4>George Brown College</h4>
+                                <h5>Jan. 2020 - Apr. 2022</h5>
+                            </div>
+                            <p style="padding: 0px; margin:0px;"><em>Computer Programmer Analyst (T127)</em></p>
+                            <ul>
+                                <li style="padding:0px">Acquired 3.92 GPA</li>
+                                <li style="padding:0px">Awarded Dean's List in all semesters</li>
+                            </ul>
+                        </div>
+
+                        <!-- Awards -->
+                        <h3 class="resume-title">Technical Skills</h3>
+                        <div class="resume-item">
+                            <div class="item-container">
+                                <h4>Languages</h4>
+                            </div>
+                            <p style="padding: 0px; margin:0px;">HTML • CSS • JavaScript • PHP • SQL • Fortran • Ada • COBOL • Python • Java • Processing • TypeScript • C • C# • LaTeX</p>
+                            <br />
+                        </div>
+                        <div class="resume-item">
+                            <div class="item-container">
+                                <h4>Libraries and Frameworks</h4>
+                            </div>
+                            <p style="padding: 0px; margin:0px;">Bootstrap • jQuery • React • Express.js • Node.js • Mongoose.js • Angular • ASP.NET</p>
+                            <br />
+                        </div>
+                        <div class="resume-item">
+                            <div class="item-container">
+                                <h4>Tools and Operating Systems</h4>
+                            </div>
+                            <p style="padding: 0px; margin:0px;">Visual Studio • IntelliJ • Unity • Android Studio • MongoDB • Postman • Adobe Creative Suite • Microsoft Office • Google Workspace • Windows • Linux</p>
+                            <br />
+                        </div>
+                        <div class="resume-item">
+                            <div class="item-container">
+                                <h4>Other</h4>
+                            </div>
+                            <p style="padding: 0px; margin:0px;">Agile • Scrum • Waterfall • DevOps • Model‑View‑Controller</p>
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000">
+
+                        <!-- Volunteer Experience -->
+                        <h3 class="resume-title">Volunteer Experience</h3>
+                        <div class="resume-item">
+                            <div class="item-container">
+                                <h4>Programmer</h4>
+                                <h5>Oct. 2020 - Present</h5>
+                            </div>
+                            <p><em>Sitekick Remastered</em></p>
+                            <ul>
+                                <li>Programs various bots using the Java Discord API for server with over 700 people to improve user experiences, add features to the server, and aid future development.</li>
+                                <li>Assists in quality assurance testing during beta release while improvements and bug fixes are made.</li>
+                                <li>Coordinates and communicates with other team and server members across Canada to discuss projects and ideas, as well as take feedback for bots and the game.</li>
+                                <li>Studying various languages to further aid the development of bots, the game, and the website.</li>
+                            </ul>
+                        </div>
+
+                        <div class="resume-item">
+                            <div class="item-container">
+                                <h4>Stage Technician</h4>
+                                <h5>Sept. 2015 - Jun. 2019</h5>
+                            </div>
+                            <p><em>Leaside High School</em></p>
+                            <ul>
+                                <li>Promoted to a leadership position teaching 70+ members the safety procedures and proper operation of the various types of equipment used in theatre production.</li>
+                                <li>Supervised setups and strikes; watching over and helping crew members to ensure staff and student safety during production runs.</li>
+                                <li>Communicated with over 10 different student groups through extra-curricular meetings and email to gather the correct equipment for event setups.</li>
+                                <li>Operated lighting or sound equipment during rehearsals and shows to provide proper show atmosphere for audiences of more than 300 people.</li>
+                            </ul>
+                        </div>
+
+                        <!-- Extra-Curriculars -->
+                        <h3 class="resume-title">Extra-Curriculars</h3>
+                        <div class="resume-item">
+                            <div class="item-container">
+                                <h4>Builder, Programmer, and Media</h4>
+                                <h5>Oct. 2018 - Jun. 2019</h5>
+                            </div>
+                            <p><em>"Lancebotics" Robotics Club - Leaside High School</em></p>
+                            <ul>
+                                <li>Worked with other students to build a robot using VEX components that had balanced weight, and useful sensors to navigate a course and complete tasks to get the most points in a game.</li>
+                                <li>Developed with two other students to program drive code and autonomous code using VEX C++ to compete in competitions around Ontario.</li>
+                                <li>Coordinated with other teams during competitions to get the best results out of games played.</li>
+                                <li>Helped create various images and logos to be used in advertising, merchandise, and stickers.</li>
+                            </ul>
+                        </div>
+
+                        <div class="resume-item">
+                            <div class="item-container">
+                                <h4>Archer and Repairman</h4>
+                                <h5>Sept. 2015 - Jun. 2019</h5>
+                            </div>
+                            <p><em>Leaside Archery Club - Leaside High School</em></p>
+                            <ul>
+                                <li>Competed in various OFSAA competitions across Ontario with other archery club members.</li>
+                                <li>Took leading role in teaching other students proper safety and shooting practices.</li>
+                                <li>Repaired equipment with mentor and other members during winters to prepare equipment for the next seasons.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Projects -->
+        <section id="projects" class="projects sect-pt4">
+            <div class="container">
+
+                <!-- Title -->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="section-title-container text-center">
+                            <div class="wordart slate"><span class="text">Projects</span></div>
+                            <!--<h3 class="section-title">Projects</h3>-->
+                            <div class="section-underline"></div>
+                            <p class="section-subtitle">Here are a few of the projects that I've worked on throughout College, University, and in my free time.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Content -->
+                <div class="row projects-container" id="projectsContainer" data-aos="fade-up" data-aos-duration="1000"></div>
+                <div class="d-flex justify-content-center">
+                    <a href="https://github.com/msirna?tab=repositories" target="__blank" class="btn btn-lg btn-success">See more at github.com/msirna</a>
+                </div>
+                <br/>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="social-links text-center">
+                        <a href="https://github.com/mSirna" target="__blank" class="github"><i class="bi bi-github" target="__blank"></i></a>
+                        <a href="mailto:msirna@uoguelph.ca" class="envelope"><i class="bi bi-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <div id="preloader"></div>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <script src="static/js/jquery-3.6.3.min.js"></script>
+    <script src="static/vendor/bootstrap/bootstrap.js"></script>
+    <script src="static/js/aos.js"></script>
+    <script src="static/js/parallax.js"></script>
+    <script src="static/js/typewriter-effect.js"></script>
+    <script src="static/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="static/js/swiper.js"></script>
+    <script src="static/js/before-effect-slider.js"></script>
+    <script src="static/js/main.js"></script>
+
+</body>
+</html>

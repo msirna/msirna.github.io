@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /da/the-universal-robots-blog/
+Disallow: /search/
+Disallow: /*events/?*
+Disallow: /*arrangementer/?*
+Disallow: /*evenemang/?*
+Disallow: /da-test/
+
+Sitemap: https://www.universal-robots.com/sitemap.xml
