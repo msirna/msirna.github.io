@@ -228,6 +228,7 @@ const projects = [
     madeWith: [
         {img: "html", name: "HTML", link: "", alt: "HTML Logo"}, 
         {img: "css", name: "CSS", link: "", alt: "CSS Logo"}, 
+        {img: "bootstrap", name: "Bootstrap", link: "", alt: "Bootstrap Logo"}, 
         {img: "javascript", name: "JavaScript", link: "", alt: "JavaScript Logo"}, 
         {img: "jquery", name: "jQuery", link: "", alt: "jQuery Logo"} 
     ]}, 
