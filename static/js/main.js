@@ -260,9 +260,9 @@ for (let i = 0; i < projects.length; i++) {
             </div>`;
         index++;
     }
-    for (let j = 0; j < Object.keys(projects[i].links).length; j++){
-        console.log(projects[i].links)
-    }
+    //for (let j = 0; j < Object.keys(projects[i].links).length; j++){
+    //    console.log(projects[i].links)
+    //}
     let madeWithIcons = "";
     for (let k = 0; k < projects[i].madeWith.length; k++){
         madeWithIcons += `

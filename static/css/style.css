@@ -34,7 +34,12 @@
     --orange-colour: #FE7F2D;
 }
 
+html {
+    overflow-x: hidden !important;
+}
+
 body {
+    overflow-x: hidden !important;
     font-family: "Roboto", sans-serif;
     background-color: var(--body-colour);
     color: var(--text-colour);
@@ -648,7 +653,7 @@ a {
 
 @media (max-width: 768px) {
     .project-link-icon{
-        font-size: 24px;
+        font-size: 20px;
     }
 }
 
