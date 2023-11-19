@@ -241,7 +241,7 @@ const projects = [
     ]}, 
     {img: "sk.png", name: "Sitekick Remastered Bots", 
     description: "Various bots made for the Sitekick Remastered Discord server to help users, allow users to verify their accounts, and create profile pictures.", 
-    links: { globe2: "https://sitekickremastered.com/", film: "https://msirna.github.io/static/videos/SitePic Demo.mp4" }, 
+    links: { github: "https://github.com/SitekickRemastered", globe2: "https://sitekickremastered.com/", film: "https://msirna.github.io/static/videos/SitePic Demo.mp4" }, 
     madeWith: [
         {img: "java", name: "Java", link: "", alt: "Java Logo"},
         {img: "discord", name: "Java Discord API", link: "https://github.com/discord-jda/JDA", alt: "Discord Logo"}
